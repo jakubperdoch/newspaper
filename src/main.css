@@ -6,8 +6,12 @@
   font-family: poppinsBold;
   src: url("./fonts/Poppins/Poppins-Bold.ttf");
 }
+@font-face {
+  font-family: poppinsSemiBold;
+  src: url("./fonts/Poppins/Poppins-SemiBold.ttf");
+}
 .header {
-  padding: 0 4rem;
+  padding: 1rem 4rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -76,6 +80,10 @@
   font-family: poppinsBold;
   src: url("./fonts/Poppins/Poppins-Bold.ttf");
 }
+@font-face {
+  font-family: poppinsSemiBold;
+  src: url("./fonts/Poppins/Poppins-SemiBold.ttf");
+}
 .homePage {
   display: flex;
   flex-direction: column;
@@ -93,6 +101,10 @@
 @font-face {
   font-family: poppinsBold;
   src: url("./fonts/Poppins/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: poppinsSemiBold;
+  src: url("./fonts/Poppins/Poppins-SemiBold.ttf");
 }
 *,
 *:before,

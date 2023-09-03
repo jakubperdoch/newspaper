@@ -1,6 +1,6 @@
 @import "../../styles/abstract/abstracts";
 .header {
-  padding: 0 4rem;
+  padding: 1rem 4rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -11,7 +11,7 @@
     .headerTitle {
       font-family: poppinsBold;
       text-transform: uppercase;
-      color: #ee5626;
+      color: $highlightedText;
       font-size: $logoFontSize;
     }
   }

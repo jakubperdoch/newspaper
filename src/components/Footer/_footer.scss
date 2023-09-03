@@ -1,0 +1,12 @@
+@import "../../styles/abstract/abstracts";
+
+footer {
+  display: flex;
+  .thanksSection {
+    font-family: poppinsSemiBold;
+    .thanksTitle-highlighted {
+      color: $highlightedText;
+      text-decoration: underline;
+    }
+  }
+}

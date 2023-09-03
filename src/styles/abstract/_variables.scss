@@ -4,6 +4,8 @@ $mainBackground-dark: #201f1f;
 $textColor: #201f1f;
 $textColor-dark: #f5f5f5;
 
+$highlightedText: #ee5626;
+
 // Typography
 $baseFontSize: 0.65rem;
 $titleFontSize: 1.8rem;
@@ -19,4 +21,8 @@ $titleFontFamily: "Times New Roman", Times, serif;
 @font-face {
   font-family: poppinsBold;
   src: url("./fonts/Poppins/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: poppinsSemiBold;
+  src: url("./fonts/Poppins/Poppins-SemiBold.ttf");
 }
