@@ -1,0 +1,10 @@
+@import "./components/components";
+@import "./pages/pages";
+@import "./styles/style";
+
+* {
+  font-family: poppins;
+}
+body {
+  background-color: $mainBackground;
+}

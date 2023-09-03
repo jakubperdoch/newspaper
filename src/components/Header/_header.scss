@@ -1,0 +1,18 @@
+@import "../../styles/abstract/abstracts";
+.header {
+  padding: 0 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .logoSection {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    .headerTitle {
+      font-family: poppinsBold;
+      text-transform: uppercase;
+      color: #ee5626;
+      font-size: $logoFontSize;
+    }
+  }
+}

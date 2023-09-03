@@ -1,0 +1,10 @@
+@import "../../styles/abstract/abstracts";
+.homePage {
+  display: flex;
+  flex-direction: column;
+  .homeTitle {
+    font-size: 1.5rem;
+    font-family: poppinsBold;
+    text-decoration: underline;
+  }
+}
