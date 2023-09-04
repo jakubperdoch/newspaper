@@ -10,11 +10,23 @@
   font-family: poppinsSemiBold;
   src: url("./fonts/Poppins/Poppins-SemiBold.ttf");
 }
+.dark-mode {
+  color: white;
+}
+.dark-mode body {
+  background-color: pink;
+}
+.dark-mode #toggle {
+  background-color: white;
+}
+.dark-mode #toggle .toggle-inner {
+  background-color: #1a202c;
+}
+
 .header {
-  padding: 1rem 4rem;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 .header .logoSection {
   display: flex;
@@ -62,16 +74,6 @@
   margin-left: 1.4rem;
 }
 
-.dark-mode {
-  color: white;
-}
-.dark-mode #toggle {
-  background-color: white;
-}
-.dark-mode #toggle .toggle-inner {
-  background-color: #1a202c;
-}
-
 @font-face {
   font-family: poppins;
   src: url("./fonts/Poppins/Poppins-Regular.ttf");
@@ -84,9 +86,23 @@
   font-family: poppinsSemiBold;
   src: url("./fonts/Poppins/Poppins-SemiBold.ttf");
 }
+.dark-mode {
+  color: white;
+}
+.dark-mode body {
+  background-color: pink;
+}
+.dark-mode #toggle {
+  background-color: white;
+}
+.dark-mode #toggle .toggle-inner {
+  background-color: #1a202c;
+}
+
 .homePage {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .homePage .homeTitle {
   font-size: 1.5rem;
@@ -106,6 +122,19 @@
   font-family: poppinsSemiBold;
   src: url("./fonts/Poppins/Poppins-SemiBold.ttf");
 }
+.dark-mode {
+  color: white;
+}
+.dark-mode body {
+  background-color: pink;
+}
+.dark-mode #toggle {
+  background-color: white;
+}
+.dark-mode #toggle .toggle-inner {
+  background-color: #1a202c;
+}
+
 *,
 *:before,
 *:after {

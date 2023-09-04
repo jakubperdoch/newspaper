@@ -1,0 +1,15 @@
+.dark-mode {
+  color: white;
+
+  body {
+    background-color: pink;
+  }
+
+  #toggle {
+    background-color: white;
+
+    .toggle-inner {
+      background-color: #1a202c;
+    }
+  }
+}

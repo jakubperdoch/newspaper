@@ -1,19 +1,22 @@
 // Color themes
+
 $mainBackground: #f7f0e6;
 $mainBackground-dark: #201f1f;
 $textColor: #201f1f;
 $textColor-dark: #f5f5f5;
-
 $highlightedText: #ee5626;
 
 // Typography
+
 $baseFontSize: 0.65rem;
 $titleFontSize: 1.8rem;
 $logoFontSize: 1.3rem;
-$autorFontSize: 0.75rem;
+$footerFontSize: 0.75rem;
 $dateFontSize: 0.5rem;
+$iconFontSize: 1.1rem;
 
 $titleFontFamily: "Times New Roman", Times, serif;
+
 @font-face {
   font-family: poppins;
   src: url("./fonts/Poppins/Poppins-Regular.ttf");

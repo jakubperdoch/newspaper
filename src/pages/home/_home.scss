@@ -1,7 +1,6 @@
 @import "../../styles/abstract/abstracts";
 .homePage {
-  display: flex;
-  flex-direction: column;
+  @include flex-center;
   .homeTitle {
     font-size: 1.5rem;
     font-family: poppinsBold;

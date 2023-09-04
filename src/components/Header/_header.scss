@@ -1,12 +1,8 @@
 @import "../../styles/abstract/abstracts";
 .header {
-  padding: 1rem 4rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  @include flex-between;
   .logoSection {
-    display: flex;
-    align-items: center;
+    @include flex-center-vert;
     gap: 0.5rem;
     .headerTitle {
       font-family: poppinsBold;

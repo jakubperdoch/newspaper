@@ -1,12 +1,45 @@
 @import "../../styles/abstract/abstracts";
 
-footer {
-  display: flex;
+.footer {
+  @include flex-between;
   .thanksSection {
     font-family: poppinsSemiBold;
+    font-size: $footerFontSize;
     .thanksTitle-highlighted {
       color: $highlightedText;
       text-decoration: underline;
     }
+  }
+  .contactSection {
+    font-family: poppinsSemiBold;
+    text-decoration: underline;
+    font-size: $footerFontSize;
+  }
+  .networkSection {
+    display: flex;
+    gap: 1rem;
+    .networkLink {
+      height: 2rem;
+      width: 2rem;
+      @include flex-center;
+      @include border(0.15rem, black);
+      @include radius-circle;
+      cursor: pointer;
+      .networkIcon {
+        font-size: $iconFontSize;
+      }
+    }
+  }
+}
+@include respond-above(xs) {
+  .networkLink {
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+    .networkIcon {
+      font-size: 0.8rem !important;
+    }
+  }
+  .footer {
+    gap: 1rem;
   }
 }
