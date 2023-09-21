@@ -1,12 +1,14 @@
 .dark-mode {
-  color: white;
+  color: $textColor-dark;
 
   body {
     background-color: pink;
   }
-
+  .networkLink {
+    border: 0.15rem solid #f5f5f5 !important;
+  }
   #toggle {
-    background-color: white;
+    background-color: $textColor-dark;
 
     .toggle-inner {
       background-color: #1a202c;

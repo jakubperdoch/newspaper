@@ -7,7 +7,7 @@ import "./_footer.scss";
 const Footer = () => {
   return (
     <>
-      <footer className="footer  container-fluid px-md-5">
+      <footer className="footer  container-fluid px-md-5 py-3">
         <span className="thanksSection">
           Thanks for <span className="thanksTitle-highlighted">coming!</span>
         </span>

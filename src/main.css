@@ -11,13 +11,16 @@
   src: url("./fonts/Poppins/Poppins-SemiBold.ttf");
 }
 .dark-mode {
-  color: white;
+  color: #f5f5f5;
 }
 .dark-mode body {
   background-color: pink;
 }
+.dark-mode .networkLink {
+  border: 0.15rem solid #f5f5f5 !important;
+}
 .dark-mode #toggle {
-  background-color: white;
+  background-color: #f5f5f5;
 }
 .dark-mode #toggle .toggle-inner {
   background-color: #1a202c;
@@ -87,13 +90,16 @@
   src: url("./fonts/Poppins/Poppins-SemiBold.ttf");
 }
 .dark-mode {
-  color: white;
+  color: #f5f5f5;
 }
 .dark-mode body {
   background-color: pink;
 }
+.dark-mode .networkLink {
+  border: 0.15rem solid #f5f5f5 !important;
+}
 .dark-mode #toggle {
-  background-color: white;
+  background-color: #f5f5f5;
 }
 .dark-mode #toggle .toggle-inner {
   background-color: #1a202c;
@@ -123,13 +129,16 @@
   src: url("./fonts/Poppins/Poppins-SemiBold.ttf");
 }
 .dark-mode {
-  color: white;
+  color: #f5f5f5;
 }
 .dark-mode body {
   background-color: pink;
 }
+.dark-mode .networkLink {
+  border: 0.15rem solid #f5f5f5 !important;
+}
 .dark-mode #toggle {
-  background-color: white;
+  background-color: #f5f5f5;
 }
 .dark-mode #toggle .toggle-inner {
   background-color: #1a202c;
