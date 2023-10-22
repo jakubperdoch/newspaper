@@ -1,3 +1,4 @@
+import "./_post.scss";
 interface PostProps {
   item: {
     title: string;
@@ -12,7 +13,7 @@ const Post = ({ item }: PostProps) => {
 
   return (
     <>
-      <div className="postComponent">
+      <div className="post">
         <span className="postTitle">{title}</span>
         <span className="postDescription">{description}</span>
         <img className="postImage" src={image} alt="" />

@@ -1,0 +1,11 @@
+.post {
+  &Title {
+    color: red;
+  }
+  &Description {
+    color: pink;
+  }
+  &Image {
+    height: 1rem;
+  }
+}
