@@ -1,11 +1,10 @@
 .post {
   &Title {
-    color: red;
   }
   &Description {
-    color: pink;
   }
   &Image {
-    height: 1rem;
+    width: 15.625rem;
+    height: 9.375rem;
   }
 }
